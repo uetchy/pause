@@ -1,8 +1,11 @@
 [package]
 name = "ask"
+description = "Pause linux pipes for certain amount of time before continuing."
 version = "0.1.0"
 authors = ["Yasuaki Uechi <y@uechi.io>"]
 edition = "2018"
+homepage = "https://github.com/uetchy/ask"
+license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
