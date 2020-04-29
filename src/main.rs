@@ -9,7 +9,7 @@ fn main() {
     eprintln!("Got \"{}\"", s);
     let mut t = 5;
     while t != 0 {
-        eprint!("Continue after {} [Ctrl+C to discard]", t);
+        eprint!("Will continue after {} [Ctrl+C to discard]", t);
         thread::sleep(time::Duration::new(1, 0));
         eprint!("\r{}", clear::CurrentLine);
         t -= 1;
